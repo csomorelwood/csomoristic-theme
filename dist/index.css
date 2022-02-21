@@ -1,0 +1,76 @@
+@import "https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap";
+:root {
+  --bg-color: linear-gradient(241.49deg, #018281 -0.8%, rgba(1, 130, 129, 0.62) 122.57%);
+  --desktop-text: white;
+  --footer-color: #CECECE;
+  --start-btn: #B3B3B3;
+}
+
+[data-theme=dark] {
+  --bg-color: black;
+  --desktop-text: white;
+  --footer-color: #CECECE;
+}
+header {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+}
+header h1 {
+  color: var(--desktop-text);
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  bottom: 0;
+  background: var(--footer-color);
+  border-top: 2px solid var(--desktop-text);
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  display: flex;
+}
+footer .startbtn {
+  width: 110px;
+  height: 40px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  background: var(--start-btn);
+  border: 1px solid #979797;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-right: 10px;
+}
+footer .startbtn img {
+  margin: 5px;
+}
+footer .time {
+  width: 150px;
+  height: 40px;
+  background: var(--start-btn);
+  box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.25);
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+* {
+  box-sizing: border-box;
+}
+html, body {
+  font-family: "Prompt";
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+body {
+  background: var(--bg-color);
+}
+/*# sourceMappingURL=index.css.map */

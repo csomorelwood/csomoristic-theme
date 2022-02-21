@@ -1,0 +1,11 @@
+:root {
+  --bg-color: linear-gradient(241.49deg, #018281 -0.8%, rgba(1, 130, 129, 0.62) 122.57%);
+  --desktop-text: white;
+  --footer-color: #CECECE;
+  --start-btn: #B3B3B3;
+}
+[data-theme="dark"] {
+  --bg-color: black;
+  --desktop-text: white;
+  --footer-color: #CECECE;
+}

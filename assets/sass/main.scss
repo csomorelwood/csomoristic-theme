@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap');
+@import url('./color_schemes.scss');
+@import url('./footer.scss');
+*{
+  box-sizing: border-box;
+}
+html, body{
+  font-family: 'Prompt';
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+body{
+  background: var(--bg-color);
+}
